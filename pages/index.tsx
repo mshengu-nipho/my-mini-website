@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import MySkill1 from '../public/Skills/java.webp'
-import {BsFillMoonStarsFill} from 'react-icons/bs';
 import profilePic from '../public/Skills/nipho.jpeg'
 import Python from '../public/Skills/Python.webp'
 import SQL from '../public/Skills/SQL.png'
@@ -28,7 +27,6 @@ export default function Home() {
               <h1 className="text-xl font-burtons">My Web Portfolio</h1>
                 <ul className="flex items-center">
                   <li>
-                    <BsFillMoonStarsFill />
                   </li>
                   <li> 
                     <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href = "#">Resume</a></li>
@@ -59,6 +57,7 @@ export default function Home() {
                 <p className='text-xl tracking-widest uppercase text-[#5651e5]'> Skills</p>
                 <h2 className='py-4'>What I can do </h2>
                 <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
+                    
                     {/* HTML SKILLS */}
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
